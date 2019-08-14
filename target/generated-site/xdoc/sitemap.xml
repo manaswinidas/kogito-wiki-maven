@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><document xmlns="http://maven.apache.org/XDOC/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd"><properties>
+<title>Sitemap</title></properties>
+<body><section name="Sitemap">
+<p>This page lists all entries of the navigation menu in expanded form.</p>
+<h4>Project Documentation</h4><hr />
+<ul>
+<li><a href="./project-info.html">Project Information</a>
+<ul>
+<li><a href="dependency-info.html">Dependency Information</a></li>
+<li><a href="index.html">About</a></li>
+<li><a href="plugin-management.html">Plugin Management</a></li>
+<li><a href="plugins.html">Plugins</a></li>
+<li><a href="summary.html">Summary</a></li></ul></li></ul>
+<h4>Kogito-Wiki</h4><hr />
+<ul>
+<li><a href="Home.html">Home</a>
+<ul>
+<li><a href="Roadmap.html">Roadmap</a></li>
+<li>

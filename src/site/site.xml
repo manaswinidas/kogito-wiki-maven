@@ -1,0 +1,24 @@
+<project>
+    <body>
+        <menu ref="reports" inherit="top"/>
+        <menu ref="modules"/> 
+        <menu name="Kogito-Wiki">
+            <item href="Home.html" name="Home">
+                <item href="Roadmap.html" name="Roadmap" />
+                <item name="Usage workflows">
+                    <item href="Developer-workflow.html" name="Developer" />
+                    <item href="Administrator-workflow.html" name="Administrator" />
+                </item>
+                <item name="Processes">
+                    <item href="What-is-supported-for-process-design.html" name="Supported constructs" />
+                    <item href="Persistence.html" name="Persistence" />
+                </item>
+            </item>
+        </menu>    
+    </body>
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.7</version>
+    </skin>
+</project>
