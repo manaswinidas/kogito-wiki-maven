@@ -10,6 +10,6 @@ Build the site by invoking the `site:site` goal:
 
 Open the file _target/site/index.html_ to see the output generated for the entire site including the links to the all documents.
 
-**_NOTE:_**  I'm currently getting this error : `Execution default-cli of goal org.apache.maven.plugins:maven-site-plugin:3.7.1:site failed.: NullPointerException`. Any help in this regard is highly appreciated :smile:
+**_NOTE:_**  Though the site renders properly, I'm currently getting this error on the terminal when I run the above command: `Execution default-cli of goal org.apache.maven.plugins:maven-site-plugin:3.7.1:site failed.: NullPointerException`. Let me know if this happens in your system as well. Any help in this regard is highly appreciated :smile:
 
 
