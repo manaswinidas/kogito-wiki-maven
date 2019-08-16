@@ -1,6 +1,6 @@
-= Asciidoctor Maven Plugin: AsciiDoc Site Example
+= Kogito-Wiki-Maven
 
-An example project that demonstrates how to process AsciiDoc in a Maven site using the Asciidoctor Maven plugin.
+An example project that demonstrates how to process Kogito-wiki in a Maven site using the Asciidoctor Maven plugin.
 
 == Usage
 
@@ -8,7 +8,8 @@ Build the site by invoking the `site:site` goal:
 
  $ mvn site:site
 
-Open the file _target/site/hello.html_ to see the output generated from the AsciiDoc source _src/site/asciidoc/hello.adoc_.
+Open the file _target/site/index.html_ to see the output generated for the entire site including the links to the all documents.
 
-Open the file _target/site/index.html_ to see the output generated for the entire site including the link to the `hello` document.
+**_NOTE:_**  Though the site renders properly, I'm currently getting this error on the terminal when I run the above command: `Execution default-cli of goal org.apache.maven.plugins:maven-site-plugin:3.7.1:site failed.: NullPointerException`. Let me know if this happens in your system as well. Any help in this regard is highly appreciated :smile:
+
 
